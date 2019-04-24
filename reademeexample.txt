@@ -1,0 +1,15 @@
+apis technologies (css html etc)********
+
+participents
+
+screenshots
+
+rough draft of layout
+
+description of what it does
+
+user stories (what user can do "a user will be able to enter strain and get blah blah blah")******
+
+challenges we had and how we overcame them*****
+
+final thing ----> what we want to do in the future [future prospects]("i wish we had more time so we could do this better"<---look at markdown lang to make readme look pretty---->)
