@@ -1,0 +1,21 @@
+/* style everything to look cool duh */
+
+body{ 
+background-image: url("http://www.biocenit.cat/mypics/23/231237/wallpapers-png.png");
+    }
+
+.navbar{text:white;}
+
+.navbartext{text-align:center;
+text:white;}
+
+#introdiv{color:white;}
+
+#examplepic{color:white;}
+
+#exampleinfo{color:white;}
+
+#searchbar{color:white;}
+
+#footer{color:white;}
+
