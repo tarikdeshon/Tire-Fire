@@ -29,46 +29,79 @@
     <!-- ================================================================================ -->
 
     <!-- intro about golek ganja  -->
-    <!-- intro div  -->
-    <!-- <div id="introdiv">(introdiv)</div> originial intro div -->
-
-    <!-- bootstrap div (this is the intro) -->  
+    <!-- bootstrap div (this is the intro) -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Welcome to Golek Ganja!</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem hic magni, ipsam rerum
-                veritatis non unde.
-                Possimus quaerat eum accusantium exercitationem impedit velit! Eius hic magnam eveniet aspernatur qui
-                est!</p>
+            <p class="lead">We provide necessary information for you to decide what strain best suits your needs. Below is a search bar for any strain of your choice.
+                An example is provided below of how your search result will appear.
+            </p>
+            <!-- div for search bar -->
+            <!-- <div id="searchbar">(searchbar)</div> -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
         </div>
+    </div>
+
+
+
+    <div id="exampledivinfo">
+        <!-- example strain , and information next to it -->
+        <!-- div 1 for example (with image)     -->
+        <!-- <div id="examplepic">(examplepic) use photot of strain/weed</div>  original div for pic-->
+        <img src="https://www.worldofseeds.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/1/1/11-auto-black-jh-seeds.jpg"
+            class="rounded img1" alt="examplepic">
+
+        <!-- need another div for info about that strain -->
+        <div id="exampleinfo">(exampleinfo) might need to add sub li/ul
+            for information about the strain</div>
     </div>
 
 
 
 
 
-    <!-- example strain , and information next to it -->
-    <!-- div 1 for example (with image)     -->
-    <!-- <div id="examplepic">(examplepic) use photot of strain/weed</div>  original div for pic-->
-    <img src="https://www.gannett-cdn.com/media/USATODAY/GenericImages/2013/04/20/ap-legalizing-marijuana-1_1.jpg?width=200&height=200&fit=crop"
-        class="rounded img1" alt="examplepic">
-
-    <!-- need another div for info about that strain -->
-    <div id="exampleinfo">(exampleinfo) might need to add sub li/ul
-        for information about the strain</div>
 
 
 
-
-
-    <!-- div for search bar -->
-    <div id="searchbar">(searchbar)</div>
 
 
     <!-- footer -->
     <!-- div for footer -->
-    <footer id="footer">(footer)</footer>
+    
+    <footer class="footer">
+            <!-- <div class="container-fluid"> -->
+            <nav>
+              <li><a href="https://www.facebook.com/lucas.stahl.75">
+                  <i class="fa fa-facebook"></i>
+              </a></li>
+              <li><a href="https://twitter.com/LucasStahl11">
+                  <i class="fa fa-twitter"></i>
+              </a></li>
+          
+              <li><a href="https://www.linkedin.com/in/lucasstahl">
+                  <i class="fa fa-linkedin"></i>
+                  </a></li>
+              <li><a href="https://lucasstahl.wordpress.com/">
+                  <i class="fa fa-wordpress"></i>
+                  </a></li>
+          
+              <li id="copyRight">@Copyright 2018 www.lucasstahl.com</li>
+            </nav>
+            <!-- </div> -->
+          </footer>
+          
+
 
 </body>
+
+<!-- jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous">
+</script>
+
 
 </html>
