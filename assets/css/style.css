@@ -22,9 +22,13 @@ margin-left:10%;
 
 #introdiv{color:white;}
 
-#examplepic{color:white;}
+#examplepic{color:white;
+}
 
-#exampleinfo{color:white;}
+#exampleinfo{color:white;
+    position:relative;
+background:#c1e1ec;
+}
 
 #searchbar{color:white;}
 
