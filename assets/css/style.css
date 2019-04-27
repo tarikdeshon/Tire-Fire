@@ -1,32 +1,84 @@
 /* style everything to look cool duh */
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-body{ 
-background-image: url("http://www.biocenit.cat/mypics/23/231237/wallpapers-png.png");
-    }
 
+body {
+    background-image: url("http://www.biocenit.cat/mypics/23/231237/wallpapers-png.png");
     
-#header{color:white;
-text-align:center;
-font-family: 'Monoton', cursive;
-font-size:50px;
 }
 
-.jumbotron{margin-right:10%;
-    margin-left:10%;
-border-radius:20px;
-background-color:#C1FFC1;}
 
-.img1{border-radius:50px;
-margin-left:10%;
+#header {
+    color: white;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
 }
 
-#introdiv{color:white;}
+.jumbotron {
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #C1FFC1;
+}
 
-#examplepic{color:white;}
+.img1 {
+    border-radius: 20px;
+    margin-left: 10%;
+    width: 200px;
+    height: 200px;
+}
 
-#exampleinfo{color:white;}
+#exampledivinfo {
+    display: flex;
+}
 
-#searchbar{color:white;}
+#examplepic {
+    color: white;
+}
 
-#footer{color:white;}
+#exampleinfo {
+    color: black;
+    background: #c1e1ec;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    margin-right: 10%
+}
+
+#searchbar {
+    color: black;
+}
+
+/* .footer {
+    color: black;
+    position: absolute;
+    background-color: #C1FFC1;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+} */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fddde6;
+    
+  }
+
+  nav {
+    display: flex;
+    list-style: none;
+  }
 
