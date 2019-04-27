@@ -1,4 +1,4 @@
 # Tire-Fire
-Jaison Heer & Tarik Parker
+Jaison Heer & Tarik Parkman
 Project 1
 
