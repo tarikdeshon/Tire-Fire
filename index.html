@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 
@@ -8,47 +9,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- css relative path -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   
+
     <title>Golek Ganja</title>
 
 
     <!-- header here "Golek Ganja" -->
-        <!-- header bootrap/div -->
-       
-        <nav class="navbar navbar-dark bg-primary">
-                <span class="navbar-text text-white " >
-                  Golek Ganja
-                </span>
-              </nav>
+    <!-- header bootrap/div -->
+    <header id="header">Golek Gankja</header>
 </head>
 
 <body>
-    
-<!--    first we get the layout    -->
 
-<!-- ================================================================================ -->
+    <!--    first we get the layout    -->
 
-<!-- intro about golek ganja  -->
+    <!-- ================================================================================ -->
+
+    <!-- intro about golek ganja  -->
     <!-- intro div  -->
-    <div id="introdiv">(introdiv)</div>
+    <!-- <div id="introdiv">(introdiv)</div> originial intro div -->
 
-<!-- example strain , and information next to it -->
+    <!-- bootstrap div (this is the intro) -->  
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Welcome to Golek Ganja!</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem hic magni, ipsam rerum
+                veritatis non unde.
+                Possimus quaerat eum accusantium exercitationem impedit velit! Eius hic magnam eveniet aspernatur qui
+                est!</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- example strain , and information next to it -->
     <!-- div 1 for example (with image)     -->
-    <div id="examplepic">(examplepic) use photot of strain/weed</div>
-        <!-- need another div for info about that strain -->
-        <div id="exampleinfo">(exampleinfo) might need to add sub li/ul 
-            for information about the strain</div>
+    <!-- <div id="examplepic">(examplepic) use photot of strain/weed</div>  original div for pic-->
+    <img src="https://www.gannett-cdn.com/media/USATODAY/GenericImages/2013/04/20/ap-legalizing-marijuana-1_1.jpg?width=200&height=200&fit=crop"
+        class="rounded img1" alt="examplepic">
 
-<!-- div for search bar -->
+    <!-- need another div for info about that strain -->
+    <div id="exampleinfo">(exampleinfo) might need to add sub li/ul
+        for information about the strain</div>
+
+
+
+
+
+    <!-- div for search bar -->
     <div id="searchbar">(searchbar)</div>
 
-<!-- footer -->
+
+    <!-- footer -->
     <!-- div for footer -->
     <footer id="footer">(footer)</footer>
 
 </body>
+
 </html>
