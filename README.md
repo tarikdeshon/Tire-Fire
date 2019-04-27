@@ -1,2 +1,4 @@
 # Tire-Fire
-with TarikDeshon
+Jaison Heer & Tarik Parkman
+Project 1
+
