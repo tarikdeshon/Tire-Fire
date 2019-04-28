@@ -46,6 +46,19 @@ body {
     margin-right: 10%
 }
 
+#weedinfo{
+    text-align: left;
+    margin-top:20px;   
+}
+
+#weedrace, #weedeffect, #weedflavor {
+    margin-top:10px;
+    margin-left:250px;
+}
+#weedname{
+    margin-left:250px;
+}
+
 #searchbar {
     color: black;
 }
@@ -74,11 +87,22 @@ body {
     height: 60px;
     line-height: 60px;
     background-color: #fddde6;
+  
     
   }
+
+
+
 
   nav {
     display: flex;
     list-style: none;
+    text-align:
   }
 
+
+.copyRight{
+    /* position: absolute;
+    left: 660px; */
+    text-align:center;
+}
