@@ -22,24 +22,23 @@ var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=tHgjB
 
     .then(function(response) {
     var results = response.data;
-    var weed = [
-        name="", 
 
-        race="",
-
-        effect="",
-
-        flavor="",];
+    for (var i = 0; i < results.length; i++) {
+     
 
     
-    //   var animalImage = $("<img>");
-    //   animalImage.attr("src", still);
-    //   animalImage.attr("data-still", still);
-    //   animalImage.attr("data-animate", animated);
-    //   animalImage.attr("data-state", "still");
-    //   animalImage.addClass("animal-image");
         
-    
+    var weed = [
+        // name="", 
+
+        // race="",
+
+        // effect="",
+
+        // flavor="",
+        
+    ];
+
 
       animalDiv.append(p);
       animalDiv.append(animalImage);
