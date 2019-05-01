@@ -36,7 +36,8 @@ body {
     color: white;
 }
 
-#exampleinfo {
+.exampleinfo {
+    margin-top:11.5px;
     color: black;
     background: #c1e1ec;
     margin-left: 20px;
@@ -46,26 +47,24 @@ body {
     margin-right: 10%
 }
 
+.weedinfo{
+    text-align:left;
+    margin-top:20px;   
+}
+
+#weedrace, #weedeffect, #weedflavor {
+    margin-top:10px;
+    margin-left:250px;
+}
+#weedname{
+    margin-left:250px;
+}
+
 #searchbar {
     color: black;
 }
 
-/* .footer {
-    color: black;
-    position: absolute;
-    background-color: #C1FFC1;
-    width: 100%;
-    position: relative;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-.mt-auto, .my-auto {
-    margin-top: auto!important;
-}
-.pb-3, .py-3 {
-    padding-bottom: 1rem!important;
-} */
+
 
 .footer {
     position: absolute;
@@ -74,11 +73,22 @@ body {
     height: 60px;
     line-height: 60px;
     background-color: #fddde6;
+  
     
   }
+
+
+
 
   nav {
     display: flex;
     list-style: none;
+    text-align:
   }
 
+
+.copyRight{
+    /* position: absolute;
+    left: 660px; */
+    text-align:center;
+}
