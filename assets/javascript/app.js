@@ -18,7 +18,7 @@ var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=tHgjB
     $.ajax({
         url: queryURL,
         method: "GET"
-});
+})
 
     .then(function(response) {
     var results = response.data;
@@ -46,7 +46,7 @@ var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=tHgjB
       $("#animals").append(animalDiv);
     }
   });
-});
+
 
 
 
