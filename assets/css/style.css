@@ -1,9 +1,10 @@
+/*# sourceMappingURL=style.css.map */
 /* style everything to look cool duh */
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
 body {
     background-image: url("http://www.biocenit.cat/mypics/23/231237/wallpapers-png.png");
-    
+
 }
 
 
@@ -37,27 +38,31 @@ body {
 }
 
 .exampleinfo {
-    margin-top:11.5px;
+    margin-top: 11.5px;
     color: black;
     background: #c1e1ec;
     margin-left: 20px;
     border-radius: 20px;
     text-align: center;
     width: 100%;
-    margin-right: 10%
+    margin-right: 10%;
+    padding: 2.5px;
 }
 
-.weedinfo{
-    text-align:left;
-    margin-top:20px;   
+.weedinfo {
+    text-align: left;
+    margin-top: 20px;
 }
 
-#weedrace, #weedeffect, #weedflavor {
-    margin-top:10px;
-    margin-left:250px;
+#weedrace,
+#weedeffect,
+#weedflavor {
+    margin-top: 10px;
+    margin-left: 250px;
 }
-#weedname{
-    margin-left:250px;
+
+#weedname {
+    margin-left: 250px;
 }
 
 #searchbar {
@@ -73,22 +78,13 @@ body {
     height: 60px;
     line-height: 60px;
     background-color: #fddde6;
-  
-    
-  }
+
+}
 
 
 
 
-  nav {
+/* nav {
     display: flex;
     list-style: none;
-    text-align:
-  }
-
-
-.copyRight{
-    /* position: absolute;
-    left: 660px; */
-    text-align:center;
-}
+  } */
