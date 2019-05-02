@@ -44,7 +44,8 @@ body {
     border-radius: 20px;
     text-align: center;
     width: 100%;
-    margin-right: 10%
+    margin-right: 10%;
+    padding:2.5px;
 }
 
 .weedinfo{
@@ -73,22 +74,14 @@ body {
     height: 60px;
     line-height: 60px;
     background-color: #fddde6;
-  
     
   }
 
 
 
 
-  nav {
+  /* nav {
     display: flex;
     list-style: none;
-    text-align:
-  }
+  } */
 
-
-.copyRight{
-    /* position: absolute;
-    left: 660px; */
-    text-align:center;
-}
