@@ -5,22 +5,39 @@ $(document).ready(function() {
 
     
     // get trackers
-    var userinput;
+    var userinput= "";
+    var weedname= "";
+    var weedrace= "";
+    var weedeffect= "";
+    var weedflavor= "";
     
     
    //search funtionality
-   $(document).on('click', '.expression', function() {
-    //on click search open new window
-        //use hide and unhide in materilize/sass ez 
+    $("#search2").on("click", function(event1){
+        event1.preventDefault()
+        userinput = $("#search").val()
+        
+    //use the search for api
+        var queryURL = "http://strainapi.evanbusse.com/tHgjB63/strains/search/name/"+ userinput;
+
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).then(function (response) {
+
+        console.log(response)
+         
+    
+    //response for search results
+          
+        //actually get a response
+         
+        //append results strain name etc.
+
+
+    })
         
     
-    //search giphy for whatver searched
-        //return 1 result using the search term (should be weed strain) into class img1
-
-    //use strain api to get race name effect and flavor
-        //append into appropriate ids in html
-
-    //
 
     
 
@@ -28,5 +45,11 @@ $(document).ready(function() {
 
 
 
-)};
-    
+
+
+   });   
+
+
+
+
+});
