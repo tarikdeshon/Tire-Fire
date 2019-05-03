@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      
-    
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/GolekGanjaLogo.png">
+
 
 
     <title>Golek Ganja</title>
@@ -28,6 +29,7 @@
     <!-- header bootrap/div -->
     <header id="header">Golek Ganja</header>
 </head>
+<script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
 
 <body>
 
@@ -88,10 +90,23 @@
 
 
 
-    
 
 
 
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDS9RoX1xyBDMZUCJZEeSC5oOEcM-p5XGQ",
+            authDomain: "tire-fire-28063.firebaseapp.com",
+            databaseURL: "https://tire-fire-28063.firebaseio.com",
+            projectId: "tire-fire-28063",
+            storageBucket: "tire-fire-28063.appspot.com",
+            messagingSenderId: "583637383938"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="app.js"></script>
 </body>
 <!-- link JS file -->
 <script src="assets/javascript/app.js"></script>
