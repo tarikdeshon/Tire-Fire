@@ -1,82 +1,36 @@
-
-
-
-
-//so once the loads up run this code
 $(document).ready(function() {
-    
-// get trackers
-var userinput;
-
-// create object 
 
 
 
-var type = $(this).attr("data-type");
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=tHgjB63";
-    
-    $.ajax({
-        url: queryURL,
-        method: "GET"
-})
-
-    .then(function(response) {
-    var results = response.data;
-
-    for (var i = 0; i < results.length; i++) {
-     
 
     
+    // get trackers
+    var userinput;
+    
+    
+   //search funtionality
+   $(document).on('click', '.expression', function() {
+    //on click search open new window
+        //use hide and unhide in materilize/sass ez 
         
-    var weed = [
-        // name="", 
+    
+    //search giphy for whatver searched
+        //return 1 result using the search term (should be weed strain) into class img1
 
-        // race="",
+    //use strain api to get race name effect and flavor
+        //append into appropriate ids in html
 
-        // effect="",
+    //
 
-        // flavor="",
-        
-    ];
-
-
-      animalDiv.append(p);
-      animalDiv.append(animalImage);
-
-      $("#animals").append(animalDiv);
-    }
-  });
+    
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
+)};
+    
+    
+    
+    
+    
