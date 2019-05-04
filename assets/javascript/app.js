@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-// testttttttttttt
+
 
 
     // get trackers
@@ -22,9 +22,18 @@ $(document).ready(function () {
         $.ajax({
             url: queryURL,
             method: "GET"
-        }).then(function (response) {
+        })
+        // after api request is made get these the object 0 
+        .then(function (response) {
+                //append the name of object 0 to weedname 
+            $("#weedname").append(response[0].name)
+                //append the nrace of object 0 to weedrace 
+            $("#weedrace").append(response[0].race)
+                //append the description of object 0 to weedeffect
+            $("#weedeffect").append(response[0].desc)
+                
 
-            $("#weedname").append(response)
+            
 
             console.log(response)
             
