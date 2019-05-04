@@ -25,23 +25,17 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding: 4px;
     text-decoration: none;
 }
 
 .jumbotron {
-    margin-right: 10%;
-    margin-left: 10%;
-    border-radius: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 30px;
     background-color: #C1FFC1;
 }
 
-.img1 {
-    border-radius: 20px;
-    margin-left: 10%;
-    width: 200px;
-    height: 200px;
-}
 
 #exampledivinfo {
     display: flex;
@@ -60,7 +54,6 @@ body {
     text-align: center;
     width: 100%;
     margin-right: 10%;
-
     padding: 2.5px;
 
 
@@ -68,7 +61,8 @@ body {
 
 .weedinfo {
     text-align: left;
-    margin-top: 20px;
+    clear: both;
+    margin-top: 15px;
 }
 
 #weedrace,

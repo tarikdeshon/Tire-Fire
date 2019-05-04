@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- bootstrap CDN -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- minified Sass CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/sass/style.scss">
@@ -32,8 +31,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <h2 class="navbar-brand brand-name">
-            <img class="img-responsive2" src="assets/images/GolekGanjaLogo.png" width="60px" height="60px">
-            </a>
+            <img class="img-responsive2" src="assets/images/GolekGanjaLogo.png" width="50px" height="50px">
         </h2>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -49,7 +47,7 @@
                     <a class="nav-link" href="#">Sativa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Indica</a>
+                    <a class="nav-link" href="indica.html">Indica</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Hybrid</a>
@@ -62,7 +60,6 @@
     <header id="header">Golek Ganja</header>
     <br>
 </head>
-<script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
 
 <body>
 
@@ -75,7 +72,7 @@
 
     <!-- intro about golek ganja  -->
     <!-- bootstrap div (this is the intro) -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron">
         <div class="container">
             <h1 class="display-4">Welcome to Golek Ganja!</h1>
             <p class="lead">We provide necessary information for you to decide what strain best suits your needs. Below
@@ -98,13 +95,15 @@
                 <!-- need another div for info about that strain -->
                 <div class="exampleinfo">
                     <h1 class="display-4">Your Results!</h1>
+                    <div id="displayinfo">
+                        <ul class="weedinfo">
+                            <li id="weedname"><strong>Strain:</strong><span class="name"></span></li>
+                            <li id="weedrace"><strong>Race:</strong><span class="race"></span></li>
+                            <li id="weedeffect"><strong>Description: </strong><span class="description"></span></li>
 
-                    <ul class="weedinfo">
-                        <li id="weedname"><strong>Strain:</strong> Jack Herer</li>
-                        <li id="weedrace"><strong>Race:</strong> Sativa</li>
-                        <li id="weedeffect"><strong>Description: </strong>Happy, Energetic, Lazy</li>
+                        </ul>
+                    </div>
 
-                    </ul>
 
 
                 </div>
@@ -114,7 +113,7 @@
 
     </div>
     <footer id="footer">
-        <div>Jaison & Tarik Project</div>
+        <div>Jaison & Tarik Copyright 2019</div>
     </footer>
     <br>
 
@@ -145,19 +144,28 @@
         };
         firebase.initializeApp(config);
     </script>
-    <script src="app.js"></script>
+    <!-- link JS file -->
+    <script src="assets/javascript/app.js"></script>
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm9598uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous">
+    </script>
+    <!-- Minified Lo-Dash CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"
+        integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
+    <!-- Minified Materilize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
-<!-- link JS file -->
-<script src="assets/javascript/app.js"></script>
-<!-- jquery CDN -->
-<script src="https://code.jquery.com/jquery-3.4.0.min.js"
-    integrity="sha256-BJeo0qm9598uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous">
-</script>
-<!-- Minified Lo-Dash CDN -->
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"
-    integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
-<!-- Minified Materilize JS CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
 
 
