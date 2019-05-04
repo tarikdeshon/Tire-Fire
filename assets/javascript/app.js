@@ -18,7 +18,7 @@ $(document).ready(function () {
         userinput = $("#search").val()
 
         //use the search for api
-        var queryURL = "http://strainapi.evanbusse.com/tHgjB63/strains/search/name/" + userinput;
+        var queryURL = "https://strainapi.evanbusse.com/tHgjB63/strains/search/name/" + userinput;
         $.ajax({
                 url: queryURL,
                 method: "GET"
