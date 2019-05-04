@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+
     <!-- minified Sass CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/sass/style.scss">
+
+
     <!-- css relative path -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -49,13 +50,10 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sativa</a>
+                    <a class="nav-link" href="https://github.com/illbeheer/Tire-Fire">Github Repo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Indica</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Hybrid</a>
+                    <a class="nav-link" href="gallery.html">Image Gallery</a>
                 </li>
 
             </ul>
@@ -82,13 +80,14 @@
         <div class="container">
             <h1 class="display-4">Welcome to Golek Ganja!</h1>
             <p class="lead">We provide necessary information for you to decide what strain best suits your needs. Below
-                is a search bar for any strain of your choice.
-                An example is provided below of how your search result will appear.
+                is a search bar feel free to search different strains and improve your cannabis knowledge.
+
             </p>
             <!-- div for search bar -->
             <!-- <div id="searchbar">(searchbar)</div> -->
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" id="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" id="search" placeholder="Name of Marijuana"
+                    aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" id="search2" type="submit">Search</button>
             </form>
             <br>
@@ -97,13 +96,18 @@
                 <!-- need another div for info about that strain -->
                 <div class="exampleinfo">
                     <h1 class="display-4">Your Results!</h1>
+                    <div id="satvsind">
+                        <img src="assets/images/satvsind.png" alt="example" width="280" height="140">
+                    </div>
+                    <div class="infodiv">
+                        <ul class="weedinfo">
+                            <li id="weedname"><strong>Strain:</strong></li>
+                            <li id="weedrace"><strong>Race:</strong></li>
+                            <li id="weedeffect"><strong>Description:</strong></li>
 
-                    <ul class="weedinfo">
-                        <li id="weedname"><strong>Strain:</strong></li>
-                        <li id="weedrace"><strong>Race:</strong></li>
-                        <li id="weedeffect"><strong>Description: </strong></li>
+                        </ul>
 
-                    </ul>
+                    </div>
 
 
                 </div>

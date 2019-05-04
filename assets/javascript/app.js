@@ -29,14 +29,17 @@ $(document).ready(function () {
                 $("#weedname").html("<strong>Strain:</strong> " + response[0].name)
                 //append the nrace of object 0 to weedrace 
                 $("#weedrace").html("<strong>Race:</strong> " + response[0].race)
-                
+
+
                 //if desciption has a value of null it runs this
                 if (response[0].desc === null) {
                     $("#weedeffect").html("<strong>Description:</strong> " + "No Description Available.")
-                } 
+                }
                 //if the desc has a value then it will append the value
-                else{$("#weedeffect").html("<strong>Description:</strong> " + response[0].desc)}
-                
+                else {
+                    $("#weedeffect").html("<strong>Description:</strong> " + response[0].desc)
+                }
+
 
                 console.log(response)
             })
