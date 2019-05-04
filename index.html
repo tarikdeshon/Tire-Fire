@@ -19,6 +19,9 @@
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" type="image/png" href="assets/images/GolekGanjaLogo.png">
 
@@ -85,8 +88,8 @@
             <!-- div for search bar -->
             <!-- <div id="searchbar">(searchbar)</div> -->
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" id="type=" submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" id="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="search2" type="submit">Search</button>
             </form>
             <br>
             <div id="exampledivinfo">
@@ -100,9 +103,9 @@
                     <h1 class="display-4">Your Results!</h1>
 
                     <ul class="weedinfo">
-                        <li id="weedname"><strong>Strain:</strong> Jack Herer</li>
-                        <li id="weedrace"><strong>Race:</strong> Sativa</li>
-                        <li id="weedeffect"><strong>Description: </strong>Happy, Energetic, Lazy</li>
+                        <li id="weedname"><strong>Strain:</strong></li>
+                        <li id="weedrace"><strong>Race:</strong></li>
+                        <li id="weedeffect"><strong>Description: </strong></li>
 
                     </ul>
 
@@ -145,19 +148,11 @@
         };
         firebase.initializeApp(config);
     </script>
-    <script src="app.js"></script>
 </body>
 <!-- link JS file -->
 <script src="assets/javascript/app.js"></script>
-<!-- jquery CDN -->
-<script src="https://code.jquery.com/jquery-3.4.0.min.js"
-    integrity="sha256-BJeo0qm9598uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous">
-</script>
-<!-- Minified Lo-Dash CDN -->
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"
-    integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
-<!-- Minified Materilize JS CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
 
 
 
