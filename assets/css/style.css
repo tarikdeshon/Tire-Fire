@@ -46,7 +46,7 @@ body {
 }
 
 .exampleinfo {
-    margin-top: 11.5px;
+    margin-top: 20px;
     color: black;
     background: #c1e1ec;
     margin-left: 20px;
@@ -59,21 +59,27 @@ body {
 
 }
 
+#satvsind {
+    float: center;
+    margin: 15px;
+}
+
 .weedinfo {
     text-align: left;
     clear: both;
     margin-top: 15px;
 }
 
+
 #weedrace,
 #weedeffect,
 #weedflavor {
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 25px;
 }
 
 #weedname {
-    margin-left: 250px;
+    margin-left: 25px;
 }
 
 #searchbar {
